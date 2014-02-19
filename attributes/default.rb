@@ -18,4 +18,4 @@
 # limitations under the License.
 #
 
-# Set meaningful node attributes here
+default['pagespeed']['deb'] = 'https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd64.deb'

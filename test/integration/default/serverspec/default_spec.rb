@@ -3,7 +3,7 @@ require 'spec_helper'
 
 # Write integration tests with Serverspec - http://serverspec.org/
 describe 'mod_pagespeed::default' do
-  it 'does something' do
-    pending 'Replace this with meaningful tests'
+  describe package('mod-pagespeed-stable') do
+    it { should be_installed }
   end
 end

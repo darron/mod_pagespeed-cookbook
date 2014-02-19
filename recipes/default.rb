@@ -18,8 +18,6 @@
 # limitations under the License.
 #
 
-include_recipe 'apache2::default'
-
 remote_file '/tmp/mod-pagespeed-stable_current_amd64.deb' do # ~FC013
   source node['pagespeed']['deb']
   mode 00644
